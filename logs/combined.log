@@ -1,0 +1,23 @@
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-08-06T12:11:36.631Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:11:36 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-08-06T12:11:36.658Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:11:37 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-08-06T12:11:37.028Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-08-06T12:27:41.428Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:27:41 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.130.0 Chrome/148.0.7778.280 Electron/42.6.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-08-06T12:27:41.452Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-08-06T12:28:01.674Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:28:01 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T12:28:01.677Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:29:17 +0000] \"GET /api HTTP/1.1\" 200 40 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T12:29:17.639Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:29:33 +0000] \"GET /health HTTP/1.1\" 200 66 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T12:29:33.079Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:30:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 404 156 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T12:30:08.303Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:30:46 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 404 156 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T12:30:46.919Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:34:49 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T12:34:49.997Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:12:35:01 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T12:35:01.850Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:13:22:20 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T13:22:20.440Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:13:26:53 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T13:26:53.117Z"}
+{"level":"info","message":"User registered successfully: iristidjio@gmail.com","service":"acquisitions-api","timestamp":"2026-08-06T13:29:54.980Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:13:29:54 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 117 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T13:29:54.985Z"}
+{"level":"info","message":"User iristidjio@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-08-06T14:27:51.983Z"}
+{"level":"info","message":"User registered successfully: iristidjio@gmail.com","service":"acquisitions-api","timestamp":"2026-08-06T14:27:51.998Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:14:27:52 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 119 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T14:27:52.007Z"}
+{"level":"info","message":"User www.titilou@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-08-06T14:29:02.909Z"}
+{"level":"info","message":"User registered successfully: www.titilou@gmail.com","service":"acquisitions-api","timestamp":"2026-08-06T14:29:02.910Z"}
+{"level":"info","message":"::1 - - [06/Aug/2026:14:29:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 118 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T14:29:02.912Z"}
