@@ -1,0 +1,17 @@
+name: acquisitions-prod
+
+services:
+  # Production Application Service
+  # Points directly to the serverless Neon Cloud Database
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: acquisitions-app-prod
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.productions
+    

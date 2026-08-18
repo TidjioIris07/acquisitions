@@ -1,0 +1,49 @@
+name: acquisitions-dev
+
+services:
+  # Neon Local Proxy Service for Local Development
+  neon-local:
+    image: neondatabase/neon_local:latest
+    container_name: acquisitions-neon-local
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+      - "8080:8080"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: acquisitions_dev
+    volumes:
+      - neon_local_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -h 127.0.0.1 -p 5432 || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  # Application Service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: acquisitions-app-dev
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.development
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=postgres://postgres:postgres@neon-local:5432/acquisitions_dev?sslmode=disable
+    volumes:
+      - ./src:/app/src
+      - /app/node_modules
+    depends_on:
+      neon-local:
+        condition: service_healthy
+
+volumes:
+  neon_local_data:
+    driver: local

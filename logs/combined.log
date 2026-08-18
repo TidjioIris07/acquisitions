@@ -26,3 +26,24 @@
 {"level":"info","message":"::1 - - [18/Aug/2026:06:43:55 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 117 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T06:43:55.191Z"}
 {"level":"info","message":"User logged out successfully","service":"acquisitions-api","timestamp":"2026-08-18T06:44:35.235Z"}
 {"level":"info","message":"::1 - - [18/Aug/2026:06:44:35 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T06:44:35.239Z"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:29:52 +0000] \"GET /api/auth/health HTTP/1.1\" 404 154 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:29:52.784Z"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:12 +0000] \"GET /health HTTP/1.1\" 200 65 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:12.808Z"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:20 +0000] \"GET /health HTTP/1.1\" 200 65 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:20.606Z"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:21 +0000] \"GET /health HTTP/1.1\" 200 65 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:21.114Z"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:21 +0000] \"GET /health HTTP/1.1\" 200 65 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:21.565Z"}
+{"ip":"::1","level":"warn","message":"Rate limit request blocked","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-08-18T07:30:22.063Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:22 +0000] \"GET /health HTTP/1.1\" 429 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:22.065Z"}
+{"ip":"::1","level":"warn","message":"Rate limit request blocked","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-08-18T07:30:22.626Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:22 +0000] \"GET /health HTTP/1.1\" 429 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:22.629Z"}
+{"ip":"::1","level":"warn","message":"Rate limit request blocked","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-08-18T07:30:23.111Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:23 +0000] \"GET /health HTTP/1.1\" 429 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:23.114Z"}
+{"ip":"::1","level":"warn","message":"Rate limit request blocked","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-08-18T07:30:23.530Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:23 +0000] \"GET /health HTTP/1.1\" 429 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:23.531Z"}
+{"ip":"::1","level":"warn","message":"Rate limit request blocked","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-08-18T07:30:24.042Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:24 +0000] \"GET /health HTTP/1.1\" 429 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:24.045Z"}
+{"ip":"::1","level":"warn","message":"Rate limit request blocked","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-08-18T07:30:24.476Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:24 +0000] \"GET /health HTTP/1.1\" 429 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:24.477Z"}
+{"ip":"::1","level":"warn","message":"Rate limit request blocked","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-08-18T07:30:25.025Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:25 +0000] \"GET /health HTTP/1.1\" 429 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:25.029Z"}
+{"ip":"::1","level":"warn","message":"Rate limit request blocked","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-08-18T07:30:25.559Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [18/Aug/2026:07:30:25 +0000] \"GET /health HTTP/1.1\" 429 97 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T07:30:25.561Z"}
