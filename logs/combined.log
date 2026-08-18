@@ -21,3 +21,8 @@
 {"level":"info","message":"User www.titilou@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-08-06T14:29:02.909Z"}
 {"level":"info","message":"User registered successfully: www.titilou@gmail.com","service":"acquisitions-api","timestamp":"2026-08-06T14:29:02.910Z"}
 {"level":"info","message":"::1 - - [06/Aug/2026:14:29:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 118 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-06T14:29:02.912Z"}
+{"level":"info","message":"User www.titilou@gmail.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-08-18T06:43:55.159Z"}
+{"level":"info","message":"User logged in successfully: www.titilou@gmail.com","service":"acquisitions-api","timestamp":"2026-08-18T06:43:55.175Z"}
+{"level":"info","message":"::1 - - [18/Aug/2026:06:43:55 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 117 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T06:43:55.191Z"}
+{"level":"info","message":"User logged out successfully","service":"acquisitions-api","timestamp":"2026-08-18T06:44:35.235Z"}
+{"level":"info","message":"::1 - - [18/Aug/2026:06:44:35 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-18T06:44:35.239Z"}

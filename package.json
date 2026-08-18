@@ -36,6 +36,8 @@
   },
   "homepage": "https://github.com/TidjioIris07/acquisitions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.10.0",
+    "@arcjet/node": "^1.10.0",
     "@neondatabase/serverless": "^1.1.0",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
