@@ -9,7 +9,7 @@ export const jwtToken = {
   sign(payload) {
     try {
       return jwt.sign(payload, JWT_SECRET, {
-        expiresIn: JWT_EXPIRES_IN
+        expiresIn: JWT_EXPIRES_IN,
       });
     } catch (error) {
       logger.error('Failed to sign JWT', error);
@@ -24,5 +24,5 @@ export const jwtToken = {
       logger.error('Failed to verify JWT', error);
       throw new Error('Failed to verify JWT', { cause: error });
     }
-  }
+  },
 };

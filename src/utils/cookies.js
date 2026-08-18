@@ -6,8 +6,8 @@ export const cookies = {
     maxAge: 15 * 60 * 1000, // 15 minutes
   }),
 
-  set: (res,name, value, options = {}) => {
-    res.cookie(name, value,  { ...cookies.getOptions(), ...options });
+  set: (res, name, value, options = {}) => {
+    res.cookie(name, value, { ...cookies.getOptions(), ...options });
   },
 
   clear: (res, name, options = {}) => {
@@ -16,5 +16,5 @@ export const cookies = {
 
   get: (req, name) => {
     return req.cookies[name];
-  }
+  },
 };
